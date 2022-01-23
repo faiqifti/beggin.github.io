@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Learning Process</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px;
+      position: relative;
+      /* Should be removed. Only for demonstration */
+    }
+
+    .column_two {
+      float: left;
+      width: 50%;
+      height: 300px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    *, body{
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #F5F5F5;
+    }
+
+    nav{
+      position: relative;
+      width: 100%;
+      height: 60px;
+      background-color: #F5F5F5;
+      box-shadow: -1px -7px 20px 0px #888;
+    }
+
+    nav ul{
+      position: relative;
+      top: 20px;
+      margin: 0;
+      float: right;
+      right: 10%;
+    }
+
+    nav ul li{
+      float: left;
+      display: block;
+      margin: 0px 15px 0px 15px;
+    }
+
+    nav ul li a{
+      text-decoration: none;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    nav ul i a:hover{
+      color: teal;
+    }
+
+    .menu-mobile{
+      position: relative;
+      float: right;
+      display: none;
+    }
+
+    .menu-mobile a{
+      color: cadetblue;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 5px 10px 5px 10px;
+      border: 1px solid #888;
+    }
+
+    /* Container holding the image and the text */
+    .container{
+      position: relative;
+      width: 100%;
+      text-align: center;
+      color: white;
+    }
+
+    /* Bottom left text */
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+
+    /* Top left text */
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
+
+    /* Top right text */
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
+
+    /* Bottom right text */
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
+
+    /* Centered text */
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      autocomplete;
+    }
+
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button1 {background-color: #4CAF50;} /* Green */
+    .button2 {background-color: #008CBA;} /* Blue */
+
+
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="menu-mobile">
+      <a href="#">Menu</a>
+    </div>
+    <ul>
+      <li><a href="#about">ABOUT US</a></li>
+      <li><a href="#progress">PROGRESS</a></li>
+      <li><a href="#journey">JOURNEY</a></li>
+      <li><a href="playground.html">PLAYGROUND</a></li>
+      <li><a href="#inv">INVENTORY</a></li>
+    </ul>
+  </nav>
+</body>
+
+<body>
+
+  <h1 style="color:#F05454;background-color:powderblue;">MIKHAILA NATASHA</h1>
+  <h2>THIS SECOND</h2>
+  <h3>THIS THIRD</h3>
+  <h4>THIS FOURTH</h3>
+    <p>PARAGRAPH PARAGRAPH</hp>
+
+    <div class="row">
+      <div class="column" style="background-color:powderblue;">
+        <h2>Column 1</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#ff4da6;">
+        <h2>Column 2</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row" style="background-color:#aaa;color: rebeccapurple;">
+        <h2>row 1</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="row" style="background-color:#bbb;color: tomato;">
+        <h2>row 2</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column_two">
+        <div class="container">
+          <img src="https://cdn.pixabay.com/photo/2021/12/01/17/52/snow-6838768_960_720.jpg" alt="Snow" style = "width:100%">
+          <div class="centered">
+            <h2>Want to try something new?</h2>
+            <p>hiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+          </div>
+        </div>
+      </div>
+      <div class="column_two">
+        <div class="container">
+          <img src="https://cdn.pixabay.com/photo/2021/12/22/16/50/landscape-6887936_960_720.jpg" alt="Forest" style="width:100%">
+          <div class="centered">
+            <h2>Invest in yourself today</h2>
+            <p>hooooooooooooooooooooooooo</p>
+            <button><a href="playground.html">CLick for brosure</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="background-color: #F5F5F5; color: #30475E;  position: relative;">
+      <h2>Our Progress</h2>
+      <p>January 2022 - To Be Discussed</p>
+    </div>
+    <div>
+      <div class="col-3">
+        <div class="column" style="background-color: #F5F5F5; color: #121212; font-size: 12px">
+          <h2>Website for Wedding Event</h2>
+          <p>We try to add some pictures and song here.</p>
+        </div>
+        <div class="column" style="background-color: #F5F5F5; color: #121212; font-size: 12px; text-align: left">
+          <h2>Website for Blog Portfolio</h2>
+          <p>We try to add result of our learning jouney hyperlink to other page.</p>
+        </div>
+        <div class="column" style="background-color: #F5F5F5; color: #121212; font-size: 12px">
+          <h2>Website for Calculation</h2>
+          <p style = "text-align: left" >We try to make auto calculation website.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="about">ABOUT US</h2>
+    <div class="col-3">
+      <div class="column" style="background-color: #F5F5F5; color: #121212; font-size: 12px">
+        <h2>Website for Wedding Event</h2>
+        <p>We try to add some pictures and song here.</p>
+      </div>
+      <div class="column" style="background-color: #F5F5F5; color: #121212; font-size: 12px; text-align: left">
+        <h2>Website for Blog Portfolio</h2>
+        <p>We try to add result of our learning jouney hyperlink to other page.</p>
+      </div>
+      <div class="column" style="background-color: #F5F5F5; color: #121212; font-size: 12px">
+        <h2>Website for Calculation</h2>
+        <p style = "text-align: left" >We try to make auto calculation website.</p>
+      </div>
+    </div>
+
+    <h2 id="inv">HTML Forms</h2>
+
+    <form action="/action_page.php">
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <input type="submit">
+    </form>
+
+
+</body>
+
+</html>
